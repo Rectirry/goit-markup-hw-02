@@ -1,5 +1,17 @@
 body {
+color: #434455;
   font-family: "Roboto", sans-serif;
+  background-color: #FFFFFF;
+}
+
+.logo {
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.03em;
+text-align: left;
+
 }
 
 .header-link {
@@ -51,6 +63,7 @@ padding: 16px 32px 16px 32px;
 gap: 10px;
 border-radius: 4px 0px 0px 0px;
 opacity: 0px;
+
 }
 
 
