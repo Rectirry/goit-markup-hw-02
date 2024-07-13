@@ -7,12 +7,19 @@ color: #434455;
 }
 
 .logo {
-font-family: Raleway;
-font-size: 18px;
-font-weight: 700;
-line-height: 21px;
-letter-spacing: 0.03em;
-text-align: left;
+  font-family:"Raleway",sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+
+}
+
+.studio-text {
+  font-family: var(--second-family);
+  color: var(--navi-blue);
 
 }
 
@@ -23,7 +30,11 @@ text-align: left;
   line-height: 24px;
   letter-spacing: 0.02em;
   color:#2E2F42;
-  ;
+  width: Hug (261px)px;
+}
+
+.head-items{
+
 }
 
 .address-link {
@@ -32,6 +43,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.02em;
+
 
 }
 
@@ -57,15 +69,16 @@ color:#FFFFFF;
 }
 
 .button-type{
-    width: Hug (169px)px;
-height: Hug (56px)px;
-top: 20px;
-left: 20px;
-padding: 16px 32px 16px 32px;
-gap: 10px;
-border-radius: 4px 0px 0px 0px;
-opacity: 0px;
-
+  width: Hug (169px)px;
+    height: Hug (56px)px;
+    top: 428px;
+    left: 636px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+background: #4D5AE5;
+position: center;
 }
 
 
