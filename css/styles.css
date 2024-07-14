@@ -15,12 +15,12 @@
 
 body {
   font-family:var(--primary-font);
-  font-family: var(--secondary-font);
+  font-family: var(--second-family);
   background-color: var(--white);
   color: var(--slate);
 }
 
-header {
+.header-nav {
   width: 1440px;
   height: 72px;
   gap: 0px;
@@ -30,7 +30,7 @@ header {
 }
 
 .logo {
-  font-family: var(--secondary-font);
+  font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -40,7 +40,7 @@ header {
 }
 
 .studio-text {
-  font-family: var(--secondary-font);
+  font-family: var(--second-family);
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
@@ -78,7 +78,7 @@ header {
   color: var(--ocean);
 }
 
-.header.address2 {
+.header-address2 {
     font-family: var(--primary-font);
     font-size: 16px;
     font-weight: 400;
@@ -88,7 +88,7 @@ header {
     color: var(--slate);
 }
 
-.header.address2:hover {
+.header-address2:hover {
   font-family: var(--primary-font);
   font-size: 16px;
   font-weight: 400;
@@ -99,20 +99,12 @@ header {
 
 }
 
-main {
+.section-title {
   width: 1440px;
     height: 600px;
     top: 72px;
     gap: 0px;
     opacity: 0px;
-}
-
-.section-title {
-  width: 1440px;
-  height: 600px;
-  top: 72px;
-  gap: 0px;
-  opacity: 0px;
   background-color: #2e2f42;
 }
 
@@ -155,11 +147,11 @@ main {
 
 .about-us-section {
   width: 1128px;
-  height: 104px;
-  top: 792px;
-  left: 156px;
-  gap: 0px;
-  opacity: 0px;
+    height: 104px;
+    top: 792px;
+    left: 156px;
+    gap: 0px;
+    opacity: 0px;
 }
 
 .about-us-title {
@@ -183,7 +175,7 @@ main {
 }
 
 .our-team-section {
-  width: 1440px;
+width: 1440px;
   height: 732px;
   top: 1016px;
   gap: 0px;
@@ -300,16 +292,16 @@ width: 1128px;
 
 .footer-section {
   width: 1440px;
-  height: 312px;
-  top: 2988px;
-  gap: 0px;
-  opacity: 0px;
+    height: 312px;
+    top: 2988px;
+    gap: 0px;
+    opacity: 0px;
   background-color: #2e2f42;
-  font-family: var(--secondary-font)
+  font-family: var(--second-family)
 }
 
 .footer-logo {
-  font-family: var(--secondary-font);
+  font-family: var(--second-family);
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -320,7 +312,7 @@ width: 1128px;
 }
 
 .footer-logo2 {
-  font-family: var(--secondary-font);
+  font-family: var(--second-family);
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
