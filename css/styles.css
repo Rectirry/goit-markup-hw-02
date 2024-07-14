@@ -12,6 +12,26 @@
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
 }
+h1
+h2
+h3
+h4
+h5
+h6 {
+  margin: 0 ;
+}
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
 
 body {
   font-family:var(--primary-font);
@@ -19,6 +39,10 @@ body {
   background-color: var(--white);
   color: var(--slate);
 }
+a {
+  text-decoration: none;
+}
+ul {list-style: none;}
 
 .header-nav {
   width: 1440px;
@@ -36,7 +60,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--iris);
 }
 
 .studio-text {
