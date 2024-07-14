@@ -9,8 +9,8 @@
   --white: #ffffff;
   --dairy: #fcfcfc;
 
-  --primary-font: Roboto;
-  --secondary-font: Raleway;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway; sans-serif";
 }
 
 body {
@@ -32,7 +32,7 @@ body {
 
 .studio-text {
   font-family: var(--secondary-font);
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
 .header-link {
@@ -52,18 +52,17 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--slate);
-  }
+}
 
-  .address-link:hover{
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
+.address-link:hover {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
   color: var(--ocean);
-
-  }
+}
 
 .section-title {
   width: 1440px;
@@ -76,15 +75,15 @@ body {
 
 .h1-title {
   font-family: Roboto;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 0.02em;
-    top: 260px;
-    margin-top: 26px;
-    left: 460px;
-    text-align: center;
-    color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  top: 260px;
+  margin-top: 26px;
+  left: 460px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .button-type {
@@ -99,9 +98,9 @@ body {
   background: #4d5ae5;
 }
 
-.button-type:hover{
-width: Hug (169px)px;
-  height: Hug (56px)px;
+.button-type:hover {
+  width: Hug (169px) px;
+  height: Hug (56px) px;
   top: 88px;
   left: 20px;
   padding: 16px 32px 16px 32px;
@@ -109,7 +108,7 @@ width: Hug (169px)px;
   border-radius: 4px 0px 0px 0px;
   opacity: 0px;
   color: var(--ocean);
-  }
+}
 
 .about-us-section {
   width: 1128px;
@@ -190,14 +189,14 @@ width: Hug (169px)px;
   background-color: #e7e9fc;
 }
 
-.portofolio-title-1{
-    font-family: Roboto;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: var(--navy-blue);
+.portofolio-title-1 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
 }
 
 .portofolio-title-2 {
@@ -207,45 +206,48 @@ width: Hug (169px)px;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
-  color: var(--navy-blue)
+  color: var(--navy-blue);
 }
 
 .portofolio-paragraf {
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .footer-section {
   width: 1440px;
-    height: 312px;
-    top: 2988px;
-    gap: 0px;
-    opacity: 0px;
-    background-color: #2e2f42;
+  height: 312px;
+  top: 2988px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #2e2f42;
+  font-family: var(--secondary-font)
 }
 
 .footer-logo {
   font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: var(--iris);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--iris);
 }
 
-.footer-logo-2 {
+.footer-logo2 {
   font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: #F4F4FD;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .footer-paragraf {
@@ -255,5 +257,5 @@ width: Hug (169px)px;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
-  color:#F4F4FD;
+  color: #f4f4fd;
 }
