@@ -15,9 +15,9 @@
 
 body {
   font-family: var(--font-family);
+  font-family: var(--secondary-font);
   background-color: var(--white);
   color: var(--slate);
-  background-color: var(--white);
 }
 
 .logo {
