@@ -9,12 +9,12 @@
   --white: #ffffff;
   --dairy: #fcfcfc;
 
-  --primary-font: "Roboto; sans-serif";
-  --secondary-font: "Raleway; sans-serif";
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
 }
 
 body {
-  font-family: var(--primary-font);
+  font-family:var(--primary-font);
   font-family: var(--secondary-font);
   background-color: var(--white);
   color: var(--slate);
