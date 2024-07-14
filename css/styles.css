@@ -88,11 +88,14 @@
     color: var(--ocean);
   }
   
-  .hero {
+  .first-section {
+    Width:1440px;
+     Height:600px;
+     Top:72px;
     background-color: var(--navy-blue);
   }
   
-  .hero-title {
+  .first-section-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
