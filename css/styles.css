@@ -32,6 +32,11 @@ body {
 
 .studio-text {
   font-family: var(--secondary-font);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
   color: #2e2f42;
 }
 
@@ -63,6 +68,28 @@ body {
   text-align: left;
   color: var(--ocean);
 }
+
+.address-link1 {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--slate);
+}
+
+.address-link1:hover {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color:var(--ocean)
+
+}
+
 
 .section-title {
   width: 1440px;
@@ -150,12 +177,12 @@ body {
 
 .our-team-title-1 {
   font-family: var(--primary-font);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--navy-blue);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
 }
 
 .our-team-title-2 {
@@ -176,6 +203,42 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue);
+}
+
+.our-team-img {
+width: Hug (264px)px;
+  height: Hug (380px)px;
+  top: 1248px;
+  left: 156px;
+  padding: 0px 0px 32px 0px;
+  gap: 32px;
+  border-radius: 0px 0px 4px 4px;
+  opacity: 0px;
+  color: var(--white);
+}
+
+.our-team-img2 {
+  width: Hug (264px)px;
+    height: Hug (380px)px;
+    top: 1248px;
+    left: 444px;
+    padding: 0px 0px 32px 0px;
+    gap: 32px;
+    border-radius: 0px 0px 4px 4px;
+    opacity: 0px;
+    color: var(--white);
+}
+
+.our-team-img3 {
+  width: Hug (264px)px;
+    height: Hug (380px)px;
+    top: 1248px;
+    left: 732px;
+    padding: 0px 0px 32px 0px;
+    gap: 32px;
+    border-radius: 0px 0px 4px 4px;
+    opacity: 0px;
+    color: var(--white);
 }
 
 .portofolio-section {
